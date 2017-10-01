@@ -6,19 +6,22 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Execute:
+
+    $ gem build try_rubygem.gemspec
+    $ gem install ./try_rubygem-0.1.0.gem
+
+And then you can try in your Ruby file:
 
 ```ruby
-gem 'try_rubygem'
+require 'try_rubygem'
+TryRubygem.hello
 ```
 
-And then execute:
+Or try in irb:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install try_rubygem
+    > require 'try_rubygem'
+    > TryRubygem.hello
 
 ## Usage
 
