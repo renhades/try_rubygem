@@ -1,5 +1,7 @@
 require "try_rubygem/version"
 
 module TryRubygem
-  # Your code goes here...
+  def self.hello
+    puts 'Hello, world!'
+  end
 end
